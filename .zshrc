@@ -2,6 +2,7 @@
 
 # Navigating to project folder
 alias unii="cd $HOME/code/uniswap/interface"
+alias unim="cd $HOME/code/uniswap/mobile"
 
 # Git related aliases
 gitfetch() {
