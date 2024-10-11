@@ -15,7 +15,7 @@ alias master="gitfetch master"
 
 # System utility aliases
 alias macspoof="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether"
-alias lostmybranch="git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(refname:short) %(committerdate:relative)'"
+alias lostmybranch="git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format='%(color:bold)%(refname:short)%(color:reset) %(committerdate:relative)'"
 
 # ============= START CONFIG
 
